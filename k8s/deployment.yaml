@@ -58,7 +58,7 @@ spec:
             - containerPort: 5000
           env:
             - name: DB_HOST
-              value: postgres
+              value: postgre
             - name: DB_USER
               value: fakeshop
             - name: DB_PASSWORD
