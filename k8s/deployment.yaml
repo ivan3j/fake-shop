@@ -52,7 +52,7 @@ spec:
         app: fakeshop
     spec:
       containers:
-        - name: postgres
+        - name: fakeshop
           image: ivan3j/fake-shop:v2
           ports:
             - containerPort: 5000
