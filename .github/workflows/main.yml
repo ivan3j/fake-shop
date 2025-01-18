@@ -18,7 +18,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Construção da Imagem Docker
-        run: echo "Executando comando Docker build"
+        run: echo "Executando comando Docker build "
       - name: Envio da Imagem Docker
         run: echo "Executando comando Docker push"
 
