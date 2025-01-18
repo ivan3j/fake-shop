@@ -23,7 +23,7 @@ jobs:
           context: ./src
           push: true
           file: ./src/Dockerfile
-          tags:
+          tags: |
             ivan3j/fake-shop:latest
             ivan3j/fake-shop:v${{github.run_number}}
   cd:
