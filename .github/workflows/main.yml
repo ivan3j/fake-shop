@@ -44,8 +44,8 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
-#      - name: Configrar o kubectl
-#        run: aws eks update-kubeconfig --name aula-eks2
+      - name: Configrar o kubectl
+        run: aws eks update-kubeconfig --name aula-eks2
 
       - name: Deploy dos manifestos no kubernetes
         uses: Azure/k8s-deploy@v5
