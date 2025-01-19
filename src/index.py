@@ -19,7 +19,7 @@ metrics = GunicornPrometheusMetrics(app)
 metrics.register_endpoint('/metrics')
 
 # Configuração do banco de dados
-db_host = os.getenv('DB_HOST', 'postgre')
+db_host = os.getenv('DB_HOST', 'localhost')
 db_user = os.getenv('DB_USER', 'fakeshop')
 db_password = os.getenv('DB_PASSWORD', 'Pg1234')
 db_name = os.getenv('DB_NAME', 'fakeshop')
