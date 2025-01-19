@@ -6,6 +6,5 @@ WORKDIR /app
 COPY . /app
 RUN chmod +x /app/entrypoint.sh
 ENV PROMETHEUS_MULTIPROC_DIR=/tmp/metrics
-ENV DOCKER_DEFAULT_PLATFORM=linux/amd64
 RUN mkdir -p /tmp/metrics 
-CMD ["/app/entrypoint.sh"]
+CMD ["./app/entrypoint.sh"]
