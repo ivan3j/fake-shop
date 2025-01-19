@@ -41,7 +41,7 @@ spec:
     targetPort: 5432
 ---
 # Deployment da Aplicação, agora vai
-apiVersion: apps/v1
+apiVersion: apps/v3
 kind: Deployment
 metadata:
   name: fakeshop
@@ -61,7 +61,7 @@ spec:
     spec:
       containers:
         - name: fakeshop
-          image: ivan3j/fake-shop:v2
+          image: ivan3j/fake-shop:v3
           ports:
             - containerPort: 5000
           env:
