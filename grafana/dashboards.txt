@@ -1,0 +1,1 @@
+Prints das telas contendo dashboards do grafana
