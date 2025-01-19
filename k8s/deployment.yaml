@@ -40,7 +40,7 @@ spec:
   - port: 5432
     targetPort: 5432
 ---
-# Deployment da Aplicação
+# Deployment da Aplicação, agora vai
 apiVersion: apps/v1
 kind: Deployment
 metadata:
