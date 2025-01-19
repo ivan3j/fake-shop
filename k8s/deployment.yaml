@@ -41,7 +41,7 @@ spec:
     targetPort: 5432
 ---
 # Deployment da Aplicação, agora vai
-apiVersion: apps/v3
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: fakeshop
